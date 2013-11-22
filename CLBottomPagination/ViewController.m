@@ -10,7 +10,7 @@
 #import "CLBottomPagination.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet CLBottomPagination *bottomPagination;
+@property (strong, nonatomic) IBOutlet CLBottomPagination *bottomPagination;
 
 @end
 
