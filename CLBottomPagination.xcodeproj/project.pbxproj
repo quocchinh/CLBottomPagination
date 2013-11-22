@@ -21,6 +21,8 @@
 		906F4D17183F15FD004B374A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906F4CF9183F15FC004B374A /* UIKit.framework */; };
 		906F4D1F183F15FD004B374A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 906F4D1D183F15FD004B374A /* InfoPlist.strings */; };
 		906F4D21183F15FD004B374A /* CLBottomPaginationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D20183F15FD004B374A /* CLBottomPaginationTests.m */; };
+		906F4D2E183F1737004B374A /* CLBottomPagination.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D2B183F1737004B374A /* CLBottomPagination.m */; };
+		906F4D2F183F1737004B374A /* CLPagingCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D2D183F1737004B374A /* CLPagingCircle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		906F4D1C183F15FD004B374A /* CLBottomPaginationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CLBottomPaginationTests-Info.plist"; sourceTree = "<group>"; };
 		906F4D1E183F15FD004B374A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		906F4D20183F15FD004B374A /* CLBottomPaginationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBottomPaginationTests.m; sourceTree = "<group>"; };
+		906F4D2A183F1737004B374A /* CLBottomPagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBottomPagination.h; sourceTree = "<group>"; };
+		906F4D2B183F1737004B374A /* CLBottomPagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBottomPagination.m; sourceTree = "<group>"; };
+		906F4D2C183F1737004B374A /* CLPagingCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPagingCircle.h; sourceTree = "<group>"; };
+		906F4D2D183F1737004B374A /* CLPagingCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPagingCircle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		906F4CFB183F15FC004B374A /* CLBottomPagination */ = {
 			isa = PBXGroup;
 			children = (
+				906F4D2A183F1737004B374A /* CLBottomPagination.h */,
+				906F4D2B183F1737004B374A /* CLBottomPagination.m */,
+				906F4D2C183F1737004B374A /* CLPagingCircle.h */,
+				906F4D2D183F1737004B374A /* CLPagingCircle.m */,
 				906F4D04183F15FC004B374A /* AppDelegate.h */,
 				906F4D05183F15FC004B374A /* AppDelegate.m */,
 				906F4D07183F15FC004B374A /* Main.storyboard */,
@@ -249,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906F4D2F183F1737004B374A /* CLPagingCircle.m in Sources */,
 				906F4D0C183F15FD004B374A /* ViewController.m in Sources */,
+				906F4D2E183F1737004B374A /* CLBottomPagination.m in Sources */,
 				906F4D06183F15FC004B374A /* AppDelegate.m in Sources */,
 				906F4D02183F15FC004B374A /* main.m in Sources */,
 			);

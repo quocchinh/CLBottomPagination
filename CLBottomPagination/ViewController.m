@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "CLBottomPagination.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet CLBottomPagination *bottomPagination;
 
 @end
 
@@ -17,13 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+	NSArray *pages = @[@"First", @"Second", @"Third", @"Fourth", @"Fifth"];
+    [self.bottomPagination registerPages:pages withCircleSize:25 withSpaceBetweenCircles:5];
+    [self.bottomPagination display];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end
